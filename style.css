@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header.ust{
+    background: url('images/overlay.png'), url('images/headerust.jpg');
+    position: relative;
+    background-size:cover;
+    width: 100%;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+header h1 {
+    position: relative;
+    font-size: 18px;
+    margin-left: 30px;
+    top: 50px;
+    color: white;
+    font-weight: 100px;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    background-color:rgba(0, 0, 0, 0.3);
+    margin-right: 80%;
+    padding-left: 10px;
+}
+
+header strong{
+    font-weight: 700px;
+}
+header strong a{
+    text-decoration: none;
+    color: rgb(249, 103, 176);
+    font-weight: 100px;
+    transition: 0.2s;
+}
+header strong a:hover{
+    color: black;
+}
+
+header ul{
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    right: 20px;
+    top: 10px;
+}
+
+header ul li{
+    display: block;
+    padding: 30px;
+    float: left;
+
+}
+header ul li a{
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    transition: 0.2s;
+}
+header ul li a:hover{
+    color:rgb(249, 103, 176);
+}
+
+section#banner{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+}
+
+#banner h2{
+    font-size: 70px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 100px;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    background-color:rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+#banner p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#aaa;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+#banner a{
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+    color:black;
+    background-color: rgba(74, 214, 102, 0.3);
+    padding: 20px;
+}
+#banner a:hover{
+    color:white;
+}
